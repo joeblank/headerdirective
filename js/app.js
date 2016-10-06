@@ -10,7 +10,7 @@ angular.module('directiveApp', ['ui.router'])
       })
       .state('page1', {
         url: '/page1',
-        templateUrl: './views/page2.html',
+        templateUrl: './views/page1.html',
         controller:'page2Ctrl'
       })
       .state('page2', {

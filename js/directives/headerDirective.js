@@ -1,8 +1,7 @@
 angular.module('directiveApp')
   .directive('headerDirective', function() {
     return {
-      // restrict: ,
-      // templateUrl: ,
-      // link ,
+      restrict: 'E',
+      templateUrl: './views/headerTmpl.html'
     }
   })
